@@ -27,23 +27,23 @@ sum = 0
 sum1 = 0
 sum2 = 0
 sum3 = 0
-final_hash = {}
+quarters = {}
 new_arr.each.each_with_index do |item, index|
     if index < 3
         sum += item
-        final_hash["Q1"] = sum
+        quarters["Q1"] = sum
     elsif index < 6
         sum1 += item
-        final_hash["Q2"] = sum1
+        quarters["Q2"] = sum1
     elsif index < 9
         sum2 += item
-        final_hash["Q3"] = sum2
+        quarters["Q3"] = sum2
     else
         sum3 += item
-        final_hash["Q4"] = sum3
+        quarters["Q4"] = sum3
     end
 end
-print final_hash
+print quarters
 puts
 
 
