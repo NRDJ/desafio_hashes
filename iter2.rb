@@ -13,5 +13,4 @@ ventas= {
     Diciembre:21000
 }
 
-
 ventas.each {|mes, venta| puts mes if venta > 45000}
